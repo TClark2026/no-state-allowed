@@ -13,12 +13,12 @@ export const students: Student[] = [
   { name: "Mia", grade: 97 },
   { name: "Lucas", grade: 86 },
   { name: "Amelia", grade: 90 },
-  { name: "Benjamin", grade: 82 },
+  { name: "Benjamin", grade: 42 },
   { name: "Harper", grade: 94 },
   { name: "Henry", grade: 79 },
   { name: "Evelyn", grade: 93 },
-  { name: "Alexander", grade: 87 },
+  { name: "Alexander", grade: 27 },
   { name: "Charlotte", grade: 96 },
   { name: "Michael", grade: 81 },
-  { name: "Abigail", grade: 89 }
+  { name: "Abigail", grade: 30 }
 ];
