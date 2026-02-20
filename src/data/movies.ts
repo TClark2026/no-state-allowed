@@ -1,0 +1,33 @@
+import type { Movie } from "../types/types";
+
+export const movies: Movie[] = [
+  { title: "Sunrise Adventure", genre: "Adventure", showtime: 7 },
+  { title: "Morning Laughs", genre: "Comedy", showtime: 9 },
+  { title: "The Early Mystery", genre: "Mystery", showtime: 11 },
+  { title: "City Heat", genre: "Action", showtime: 13 },
+  { title: "Hidden Truths", genre: "Drama", showtime: 15 },
+  { title: "Galaxy Questors", genre: "Sci-Fi", showtime: 17 },
+  { title: "Nightfall", genre: "Thriller", showtime: 19 },
+  { title: "Romance Under Stars", genre: "Romance", showtime: 20 },
+  { title: "Haunted Shadows", genre: "Horror", showtime: 22 },
+  { title: "Breakfast Club Reborn", genre: "Drama", showtime: 6 },
+  { title: "Cartoon Carnival", genre: "Animation", showtime: 8 },
+  { title: "Morning Patrol", genre: "Action", showtime: 10 },
+  { title: "Quiet Sunrise", genre: "Romance", showtime: 11 },
+  { title: "Jungle Awakening", genre: "Adventure", showtime: 9 },
+  { title: "Science for Dreamers", genre: "Documentary", showtime: 7 },
+  { title: "Hidden Garden", genre: "Fantasy", showtime: 10 },
+  { title: "Desert Run", genre: "Action", showtime: 12 },
+  { title: "Laugh Factory", genre: "Comedy", showtime: 14 },
+  { title: "Broken Strings", genre: "Drama", showtime: 16 },
+  { title: "Digital Mind", genre: "Sci-Fi", showtime: 17 },
+  { title: "Treasure Below", genre: "Adventure", showtime: 13 },
+  { title: "Courtroom Clash", genre: "Thriller", showtime: 15 },
+  { title: "Golden Horizon", genre: "Western", showtime: 16 },
+  { title: "Midnight Chase", genre: "Action", showtime: 18 },
+  { title: "Love in Neon", genre: "Romance", showtime: 19 },
+  { title: "The Last Broadcast", genre: "Horror", showtime: 21 },
+  { title: "Shadow Protocol", genre: "Thriller", showtime: 22 },
+  { title: "Stars Beyond Reach", genre: "Sci-Fi", showtime: 23 },
+  { title: "Echoes of Yesterday", genre: "Drama", showtime: 20 }
+];
