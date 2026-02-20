@@ -1,0 +1,21 @@
+@use "../../styles/variables";
+nav{
+    display: flex;
+    flex-direction: row;
+    > * {
+      background-color: variables.$secondary-color;
+      padding: 1rem;
+      color: black;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      &:hover{
+        background-color: variables.$tertiary-color;
+        text-decoration: underline;
+      }
+
+    }
+}
+
+.active {
+     background-color: variables.$tertiary-color;
+}
