@@ -1,0 +1,55 @@
+.movieRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.75rem 0;
+}
+
+.movieRow__title {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.movieRow__genre {
+    margin: 0.25rem 0 0;
+    font-size: 0.8125rem;
+    color: #6b7280;
+}
+
+.movieRow__right {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.movieRow__time {
+    font-variant-numeric: tabular-nums;
+    color: #111827;
+}
+
+.badge {
+    padding: 0.25rem 0.625rem;
+    border-radius: 1rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border: 0.0625rem solid transparent;
+}
+
+.badge--morning {
+    background: #eff6ff;
+    color: #1d4ed8;
+    border-color: #bfdbfe;
+}
+
+.badge--afternoon {
+    background: #fef3c7;
+    color: #92400e;
+    border-color: #fde68a;
+}
+
+.badge--evening {
+    background: #f3e8ff;
+    color: #6b21a8;
+    border-color: #e9d5ff;
+}
