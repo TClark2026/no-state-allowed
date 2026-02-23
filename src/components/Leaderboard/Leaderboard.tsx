@@ -3,10 +3,13 @@ import LeaderboardRow from "./LeaderboardComponents/LeaderboardRow";
 import { competitors } from "../../data/competitors";
 
 const Leaderboard = () => {
+    const sorted = competitors.sort((a, b) => b.score - a.score);
+    const topThree = sorted.slice(0, 3);
+
     return (
         <>
-            {competitors.map((competitor: Competitor) => {
-                return <LeaderboardRow {...competitor} />;
+            {topThree.map((competitor: Competitor, i) => {
+                return <LeaderboardRow {...competitor} place={i} />;
             })}
         </>
     );
